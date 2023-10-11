@@ -39,7 +39,6 @@
             <scope>test</scope>
         </dependency>
 
-
         <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
         <dependency>
             <groupId>org.assertj</groupId>
@@ -47,14 +46,6 @@
             <version>3.24.2</version>
             <scope>test</scope>
         </dependency>
-
-<!--         https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin-->
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-javadoc-plugin</artifactId>
-            <version>3.6.0</version>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -74,6 +65,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
